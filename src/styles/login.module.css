@@ -1,0 +1,35 @@
+
+  .login_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #eee;
+    padding-bottom: 15rem;
+  }
+  .login_container_form{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    max-width: 40rem;
+    padding: 0 1.5rem;
+    padding: 4rem 3rem;
+    box-shadow: 0 0 .2rem .1rem rgba(0,0,0,.04);
+    border-radius: 1rem;
+    background-color: #fff;
+  }
+  .login_container_form_h1{
+    text-align: center;
+    padding: 2rem;
+    background: #4170a7;
+    display: inline-block;
+    max-width: 10rem;
+    color: #fff;
+    font-size: 4rem;
+    margin: 0 auto 5rem auto;
+      
+  }
+  .login_container_form_h2{
+    text-align: center;
+    margin-bottom: 3rem;
+  }
