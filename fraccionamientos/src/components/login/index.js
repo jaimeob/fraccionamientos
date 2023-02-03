@@ -1,32 +1,31 @@
 import styles from "./login.module.css"
 export default function Login(){
     return(
-        <body>
         <div className={styles.card}>
         <div className={styles.cardContent}>
           <div className={styles.cardTitle}>
-            <h2>LOGIN</h2>
-            <div class="underline-title"></div>
+            <h2>Login</h2>
+            <div className="underline-title"></div>
           </div>
-          {/* <form method="post" class="form">
-            <label for="user-email" style="padding-top:13px">
+          <form method="post" className="form">
+            <label htmlFor="user-email" style={{paddingTop:'13px'}}>
                 &nbsp;Email
               </label>
-            <input id="user-email" class="form-content" type="email" name="email" autocomplete="on" required />
-            <div class="form-border"></div>
-            <label for="user-password" style="padding-top:22px">&nbsp;Password
+            <input id="user-email" className="form-content" type="email" name="email" autoComplete="on" required />
+            <div className="form-border"></div>
+            <label htmlFor="user-password" style={{paddingTop:"22px"}}>&nbsp;Password
               </label>
-            <input id="user-password" class="form-content" type="password" name="password" required />
-            <div class="form-border"></div>
-            <a href="#">
-              <legend id="forgot-pass">Forgot password?</legend>
-            </a>
-            <input id="submit-btn" type="submit" name="submit" value="LOGIN" />
-            <a href="#" id="signup">Don't have account yet?</a>
-          </form> */}
+            <input  id="cser-password" className="form-content" type="password" name="password" required />
+            <div className="form-border"></div>
+            {/* <a href="#">
+              <legend className={styles.forgotPass}>Forgot password?</legend>
+            </a> */}
+            <input  type="submit" name="submit" value="LOGIN" />
+            {/* className="submit-btn" */}
+            {/* <a href="#" className="signup">?</a> */}
+          </form>
         </div>
       </div>
-    </body>
     )
 
 }

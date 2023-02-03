@@ -2,14 +2,14 @@
   text-decoration: none;
 }
 .body {
-  background: -webkit-linear-gradient(bottom, #2dbd6e, #a6f77b);
+  background: -webkit-linear-gradient(bottom, #fbfbfb, #fbfbfb);
   background-repeat: no-repeat;
 }
 .label {
   font-family: "Raleway", sans-serif;
   font-size: 11pt;
 }
-.forgot-pass {
+.forgotPass {
   color: #2dbd6e;
   font-family: "Raleway", sans-serif;
   font-size: 10pt;
